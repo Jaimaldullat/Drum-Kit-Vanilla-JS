@@ -29,6 +29,27 @@ body {
     -o-transform: scale(-50%, -50%);
 }
 
+.key {
+    border: 2px solid #ff5500;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+}
+
 kbd {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    display: block;
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.5rem;
 }
