@@ -22,18 +22,19 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: scale(-50%, -50%);
-    -webkit-transform: scale(-50%, -50%);
-    -moz-transform: scale(-50%, -50%);
-    -ms-transform: scale(-50%, -50%);
-    -o-transform: scale(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .key {
-    border: 2px solid #ff5500;
+    border: 5px solid #000;
     border-radius: 6px;
     padding: 5px;
     margin: 5px;
+    background: rgba(0, 0, 0, 0.3);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
@@ -41,6 +42,23 @@ body {
     color: #fff;
     width: 100px;
     text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+.active {
+    border: 5px solid #ff5500;
+    box-shadow: 0 0 10px #ff5500;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 kbd {
